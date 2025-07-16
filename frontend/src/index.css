@@ -1,0 +1,73 @@
+/* Reset + Base Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white; /* Default background for all pages */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Navbar Links */
+.nav-link {
+  margin-left: 45px;
+}
+
+/* Support Page Styling */
+#supporthero {
+  background-color: #387ed1;
+  color: white;
+  padding-bottom: 60px;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supporthero h3,
+#supporthero input {
+  margin-left: 140px;
+}
+
+#supporthero a {
+  color: white;
+}
+
+#supporthero ol li {
+  color: white;
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+#supporthero input {
+  width: 400px;
+  height: 50px;
+  line-height: 24px;
+  font-weight: 400;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+#supporthero i {
+  background-color: white;
+  padding: 16px 16px 16px 16px;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* For login/signup wrapper */
+.auth-background {
+  background-color: #387ed1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
