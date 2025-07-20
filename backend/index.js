@@ -15,7 +15,12 @@ const MONGO_URI = process.env.MONGO_URL;
 
 // Middlewares
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin:[
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "https://zerodha-c4xe.vercel.app",
+    "https://zerodha-omega-nine.vercel.app"
+  ],
   credentials: true
 }));
 app.use(express.json());
